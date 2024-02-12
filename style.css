@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media only screen and (max-width: 510px) {
+    body{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+    margin-top: 15px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.image img {
+    max-width: 100%;
+   
+}
+.Birthday_wish {
+    margin: 20px 0;
+}
+
+
